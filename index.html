@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="menu.css">
+    <style>
+      
+    
+    </style>
+    <script>
+      $(document).ready(function(){
+        $("#menu").menuNelo({
+            opts : [{
+              text : 'Option 1',
+              fn : function(){alert(1)},
+              active :  true
+            },
+            {
+              text : 'Option 2',
+              fn : function(){alert(2)}
+            },
+            {
+              text : 'Nelo',
+              fn : function(){alert('Nelo')},
+              active :  true
+            }]
+
+          });
+      })
+    </script>
+  </head>
+  <body>
+  
+<div id='menu'>
+  
+</div>
+
+    
+  </body>
+</html>

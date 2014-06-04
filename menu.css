@@ -1,0 +1,49 @@
+      .active{
+        opacity: .6;
+      }
+      .non-active{
+        opacity: .4;
+      }
+      .wapperMenu{
+        position: relative;
+        float: left;
+        width: auto;
+        cursor: pointer;
+      }
+      .wapperMenu .text{
+        position: relative;
+        left: 25px;
+        top: 30px;
+        z-index: 3;
+        font: 10px;
+        font-family: verdana, sans-serif;
+        font-size: 12px;
+      }
+      .menu p{
+        margin:30px 40px;
+        font-weight:bold;
+        color:#000000;
+      }
+      .menu{
+        background-color: #D8D8D8;
+        height: 40px;
+        width: 220px;
+      }
+      
+      .mshover{
+        background-color: #D8D8D8;
+        opacity: .7;
+      }
+
+      .decorator{
+        height: 5px;  
+        width: 220px;
+      }
+
+      .dec-active{
+        background-color: #458AE0;
+      }
+
+      .dec-normal{
+        background-color: #A4A4A4;
+      }
